@@ -2,6 +2,24 @@
 
 > A collaborative AI learning project — a group of friends figuring out AI tools together, guided by the Paperclip AI agent team.
 
+## Intro challenge — start here
+
+If you were invited to join Next Gen, your first task is the **intro questionnaire challenge**. It's how you say hi, tell us about yourself, and (more importantly) get your first reps with GitHub + your AI assistant working together.
+
+**The flow:**
+
+1. **Fork** this repo to your own GitHub account.
+2. **Copy** [`questionnaire.md`](./questionnaire.md) to `submissions/<your-name>.md` (e.g., `submissions/alex.md`).
+3. **Fill it in** — use your AI assistant to help with anything you get stuck on. That's the point.
+4. **Open a Pull Request** back to `Juarez-labs/next-gen`.
+5. We review, merge, and you're in.
+
+See [`submissions/example-submission.md`](./submissions/example-submission.md) for a sample of the expected format.
+
+> Stuck on any step (forking, cloning, PRs)? Ask your AI assistant — "walk me through forking and submitting a PR to a GitHub repo" is a great prompt. Getting comfortable doing this _with_ AI is half the exercise.
+
+---
+
 ## What is this?
 
 **Next Gen** is a shared workspace for a group of friends who want to learn how to use AI tools effectively. We experiment, share notes, build things together, and develop good habits for collaborating with (and around) AI.
