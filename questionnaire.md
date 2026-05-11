@@ -1,83 +1,115 @@
-# Next Gen Intro Questionnaire
+# Next Gen Program — Introduction Questionnaire
 
-> **Status:** Placeholder template — final questions are being designed and will be filled in soon. Feel free to wait, or take a shot at the placeholder version below if you want to dive in early.
+Welcome to **Next Gen**!
 
-Welcome! This questionnaire is your way of introducing yourself to the Next Gen group. We'll use your answers to plan projects, match people up, and tailor what we work on together. There are no wrong answers — be honest, even (especially) if "I have no idea" is the honest answer.
+We are thrilled to have you here. This questionnaire helps us understand where you are at and what you want to build — so we can give you the most relevant support and pair you with the right projects.
 
----
-
-## How to submit
-
-1. **Fork** this repo (top-right of the GitHub page).
-2. **Copy** this file to `submissions/<your-name>.md` (e.g., `submissions/alex.md`). One file per person.
-3. **Fill it in.** Use your AI assistant — that's part of the point.
-4. **Commit and push** to your fork.
-5. **Open a Pull Request** back to `Juarez-labs/next-gen`.
-6. We'll review, merge, and welcome you in.
-
-> Pro tip: ask your AI assistant to help with any step you're unsure about. "How do I fork a GitHub repo from the command line?" is a totally fair question.
+**How to submit:**
+1. **Fork** this repository to your GitHub account
+2. **Fill in** this questionnaire (replace the `_your answer here_` placeholders)
+3. **Open a Pull Request** back to the main repo titled: `Intro: [Your Name]`
+4. We will review and welcome you officially!
 
 ---
 
-## About you
+## Section 1: About You
 
 **Name:**
+_your answer here_
 
-**Where you're at right now (one sentence):**
-
-**How you'd like us to reach you (Discord/email/whatever):**
-
----
-
-## Your AI experience
-
-**1. How would you rate your current comfort with AI tools?**
-- [ ] Never used them
-- [ ] Tried a few times
-- [ ] Use them weekly
-- [ ] Use them daily
-- [ ] Building things with them
-
-**2. Which AI tools have you actually used?** (ChatGPT, Claude, Gemini, Cursor, Copilot, Midjourney, etc.)
-
-**3. What do you use AI for today?** (writing, coding, brainstorming, images, learning, none yet, etc.)
-
-**4. How did you first get into AI?**
+**How did you hear about this program?**
+_your answer here_
 
 ---
 
-## Your tech background
+## Section 2: AI Skill Assessment
 
-**5. How comfortable are you with code?**
-- [ ] Never written any
-- [ ] A little (HTML, copy-pasted scripts)
-- [ ] I can build small things
-- [ ] I code regularly
-- [ ] I do this professionally
+### 2.1 Current AI Skill Level
 
-**6. Languages or tools you've touched (if any):**
+- [ ] Beginner — I am just getting started
+- [ ] Intermediate — I use AI tools regularly and can apply them to real tasks
+- [ ] Advanced — I can fine-tune, integrate, or build on top of AI systems
 
-**7. GitHub experience:**
-- [ ] What's GitHub?
-- [ ] I have an account, never really used it
-- [ ] I've cloned/forked repos
-- [ ] I've opened pull requests
-- [ ] I use it daily
+**Tell us more (optional):** _your answer here_
 
 ---
 
-## What you want from this
+### 2.2 AI Tools You Have Used
 
-**8. Are you working on any project right now you'd like help with?** (personal, side, work — anything)
+- [ ] ChatGPT / OpenAI
+- [ ] Claude (Anthropic)
+- [ ] GitHub Copilot
+- [ ] Gemini / Google AI
+- [ ] Midjourney / DALL-E / image generation tools
+- [ ] Other: _your answer here_
 
-**9. Got an idea you've been chewing on but aren't sure is doable? Tell us about it.**
-
-**10. What areas interest you most?** (web apps, mobile, automation, data/analytics, AI agents, creative/art, games, hardware, something else)
-
-**11. What does a "win" look like for you out of this group, six months from now?**
-
-**12. Anything else you want us to know?**
+**What do you mainly use AI for?**
+_your answer here_
 
 ---
 
-Thanks for filling this out. Open the PR when you're ready — we'll take it from there.
+### 2.3 Programming Background
+
+- [ ] No coding experience
+- [ ] Some basics (HTML, basic scripting, or following tutorials)
+- [ ] Comfortable with one or more languages (e.g. Python, JavaScript)
+- [ ] Experienced developer
+
+**Languages or tools you are familiar with (if any):**
+_your answer here_
+
+---
+
+### 2.4 GitHub & Version Control
+
+- [ ] Never heard of it / just learning
+- [ ] I have browsed repos on GitHub but not contributed
+- [ ] I have made commits or simple PRs before
+- [ ] Comfortable with branches, PRs, and collaborating on repos
+
+**Any public repos or projects you would like to share?**
+_your answer here_
+
+---
+
+## Section 3: Project Ideas & Goals
+
+### 3.1 Current Projects
+
+_your answer here_
+
+---
+
+### 3.2 Project Ideas
+
+_your answer here_
+
+---
+
+### 3.3 Domains of Interest
+
+- [ ] Web development (websites, web apps)
+- [ ] Mobile apps (iOS / Android)
+- [ ] Automation & productivity (scripts, bots, workflows)
+- [ ] Data analysis & visualization
+- [ ] Creative tools (writing, art, music, video)
+- [ ] AI/ML research or experimentation
+- [ ] Games
+- [ ] Business tools / entrepreneurship
+- [ ] Other: _your answer here_
+
+---
+
+### 3.4 What Do You Want to Achieve?
+
+_your answer here_
+
+---
+
+## Section 4: Anything Else?
+
+_your answer here_
+
+---
+
+*Thanks for taking the time! We read every response and use it to tailor the program for you. See you inside.*
