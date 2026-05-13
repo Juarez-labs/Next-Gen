@@ -10,6 +10,9 @@ export type Json =
   | Json[];
 
 export interface Database {
+  __InternalSupabase: {
+    PostgrestVersion: "12";
+  };
   public: {
     Tables: {
       projects: {
@@ -44,6 +47,7 @@ export interface Database {
           updated_at?: string;
         };
         Update: Partial<Database["public"]["Tables"]["projects"]["Insert"]>;
+        Relationships: [];
       };
       cards: {
         Row: {
@@ -79,6 +83,7 @@ export interface Database {
           updated_at?: string;
         };
         Update: Partial<Database["public"]["Tables"]["cards"]["Insert"]>;
+        Relationships: [];
       };
       boards: {
         Row: {
@@ -102,6 +107,7 @@ export interface Database {
           created_at?: string;
         };
         Update: Partial<Database["public"]["Tables"]["boards"]["Insert"]>;
+        Relationships: [];
       };
       validation_reports: {
         Row: {
@@ -125,6 +131,7 @@ export interface Database {
           created_at?: string;
         };
         Update: Partial<Database["public"]["Tables"]["validation_reports"]["Insert"]>;
+        Relationships: [];
       };
       exports: {
         Row: {
@@ -144,6 +151,7 @@ export interface Database {
           created_at?: string;
         };
         Update: Partial<Database["public"]["Tables"]["exports"]["Insert"]>;
+        Relationships: [];
       };
     };
     Views: Record<string, never>;
