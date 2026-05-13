@@ -31,3 +31,34 @@ export {
   renderCardThumbnail,
 } from "./card-renderer";
 export type { CardLayout, RenderCardOptions, ArtworkSource, RenderedCard } from "./card-renderer";
+export {
+  BOARD_CONSTANTS,
+  BOARD_CANVAS,
+  HEADER_BG,
+  BOARD_BG,
+  TEXT_COLOR,
+  batchBoards,
+  boardScaleForPage,
+  buildBoardHtml,
+  buildCallerDeckHtml,
+  buildCardIndexCsv,
+  escapeHtml,
+  exportBoardsAsPdfs,
+  exportCallerDeckPdf,
+  exportProjectZip,
+  loadProjectExportData,
+  renderHtmlToPdf,
+  slugify,
+} from "./pdf-exporter";
+export type {
+  BoardBatch,
+  BoardHtmlOptions,
+  BoardPdfFile,
+  CallerDeckHtmlOptions,
+  ExportBoard,
+  ExportBoardsOptions,
+  ExportCard,
+  ExportProjectData,
+  ProjectZipOptions,
+  RenderHtmlOptions,
+} from "./pdf-exporter";
