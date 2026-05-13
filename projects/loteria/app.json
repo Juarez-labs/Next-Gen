@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "Lotería Familiar",
+    "slug": "loteria",
+    "scheme": "loteria",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff8ef"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.juarezlabs.loteria",
+      "usesAppleSignIn": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Used to scan game QR codes and take card photos.",
+        "NSPhotoLibraryUsageDescription": "Used to pick photos for custom cards."
+      }
+    },
+    "android": {
+      "package": "com.juarezlabs.loteria",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#fff8ef"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "permissions": ["CAMERA"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-apple-authentication",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Lotería to scan game QR codes."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Lotería to pick photos for custom cards."
+        }
+      ]
+    ],
+    "extra": {
+      "supabaseUrl": "",
+      "supabaseAnonKey": ""
+    }
+  }
+}
