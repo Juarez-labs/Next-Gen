@@ -153,12 +153,50 @@ export interface Database {
         Update: Partial<Database["public"]["Tables"]["exports"]["Insert"]>;
         Relationships: [];
       };
+      card_generation_jobs: {
+        Row: {
+          id: string;
+          card_id: string;
+          project_id: string;
+          mode: "text_to_image" | "image_to_image";
+          provider: string;
+          provider_job_id: string | null;
+          prompt: string;
+          reference_image_url: string | null;
+          status: "queued" | "processing" | "succeeded" | "failed" | "cancelled";
+          image_url: string | null;
+          error: string | null;
+          metadata_json: Json;
+          created_at: string;
+          updated_at: string;
+        };
+        Insert: {
+          id?: string;
+          card_id: string;
+          project_id: string;
+          mode?: "text_to_image" | "image_to_image";
+          provider?: string;
+          provider_job_id?: string | null;
+          prompt: string;
+          reference_image_url?: string | null;
+          status?: "queued" | "processing" | "succeeded" | "failed" | "cancelled";
+          image_url?: string | null;
+          error?: string | null;
+          metadata_json?: Json;
+          created_at?: string;
+          updated_at?: string;
+        };
+        Update: Partial<Database["public"]["Tables"]["card_generation_jobs"]["Insert"]>;
+        Relationships: [];
+      };
     };
     Views: Record<string, never>;
     Functions: Record<string, never>;
     Enums: {
       project_status: "draft" | "in_progress" | "ready" | "exported" | "archived";
       export_type: "boards_pdf" | "caller_deck_pdf" | "card_index_csv" | "rules_sheet" | "project_zip";
+      card_generation_job_status: "queued" | "processing" | "succeeded" | "failed" | "cancelled";
+      card_generation_job_mode: "text_to_image" | "image_to_image";
     };
   };
 }
