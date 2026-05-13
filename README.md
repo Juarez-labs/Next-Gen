@@ -56,6 +56,11 @@ We're keeping this lightweight to start. As things grow, organize work into fold
 
 Folders get created as we need them — no need to scaffold empty directories.
 
+## Current builds
+
+- [`loteria/`](./loteria) — **Lotería Game Builder**. A Next.js 16 + Supabase app for designing custom Lotería decks, generating balanced boards, and exporting printable PDFs. AI card art via Higgsfield. See [`loteria/README.md`](./loteria/README.md). Tracked under the Loteria App initiative (BOAA-397).
+- [`supabase/migrations/`](./supabase/migrations) — DB schema for the Lotería app.
+
 ## Who we are
 
 A group of friends, at different starting points, learning AI together. Some of us code regularly, some are just getting started — and that's exactly the point. The mix is the feature.
